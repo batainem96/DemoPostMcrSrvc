@@ -2,6 +2,7 @@ package com.demo.mcrsrvc.models;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
@@ -9,6 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "records")
 public class EmployeeRecord {
 
+    @Indexed(unique = true)
     private String empId;
     private String firstName;
     private String lastName;

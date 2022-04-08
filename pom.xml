@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.demo</groupId>
-	<artifactId>get_mcrsrvc</artifactId>
+	<artifactId>post_mcrsrvc</artifactId>
 	<name>mcrsrvc</name>
 	<description>Demo RESTful Microservice project with Spring Boot</description>
 	<properties>
